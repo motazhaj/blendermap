@@ -1,0 +1,14 @@
+html{
+    background-color: #181818;
+    color: white;
+}
+
+nav {
+    height: 20px;
+    background-color: #131313;
+    padding: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
