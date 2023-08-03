@@ -1,27 +1,42 @@
 .LandingSection {
-  height: 800px;
+  height: 720px;
   width: auto;
-  background-image: url("/images/Landing/cover1.jpg");
+  background-image: url("/images/landing/cover1.jpg");
   background-position: center;
   background-size: cover;
   margin: 0;
 }
 
 .landingDiv {
-  height: 300px;
+  height: 250px;
   width: 800px;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 0 auto;
   text-align: center;
-  padding: 50px 8px;
+  padding: 70px 0;
   position: relative;
   top: 200px;
 }
 .landingDiv h1 {
+    margin: 0;
   font-size: 40px;
 }
 .landingDiv p {
   font-size: 25px;
-  margin: 40px 40px;
+  margin: 50px 40px;
+}
+.landingButton {
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.353);
+}
+
+.landingButton:hover {
+  color: black;
+  background-color: rgb(255, 204, 110);
 }
