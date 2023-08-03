@@ -1,5 +1,5 @@
 .LandingSection {
-  height: 720px;
+  height: 800px;
   width: auto;
   background-image: url("/images/landing/cover1.jpg");
   background-position: center;
@@ -16,10 +16,10 @@
   text-align: center;
   padding: 70px 0;
   position: relative;
-  top: 200px;
+  top: 280px;
 }
 .landingDiv h1 {
-    margin: 0;
+  margin: 0;
   font-size: 40px;
 }
 .landingDiv p {
