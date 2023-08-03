@@ -1,9 +1,13 @@
+/* section 1 */
+
 .LandingSection {
   height: 800px;
   width: auto;
   background-image: url("/images/landing/cover1.jpg");
   background-position: center;
   background-size: cover;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+
   margin: 0;
 }
 
@@ -29,14 +33,59 @@
 .landingButton {
   padding: 8px 10px;
   border-radius: 5px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
   color: black;
   background-color: orange;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.353);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .landingButton:hover {
   color: black;
   background-color: rgb(255, 204, 110);
+}
+
+/* section 2 */
+
+.mapsSection{
+  /* background-color: rgb(59, 59, 59); */
+  height: 400px;
+  padding: 20px;
+  width: 90%;
+  box-sizing: border-box;
+  
+  margin: 10px auto;
+}
+
+.mapsSection h2{
+  text-align: center;
+}
+
+/* .mapsDiv{
+
+} */
+
+.mapsList{
+  padding: 20px;
+  list-style: none;
+  display: flex;
+}
+.mapsList li{
+  margin: 10px;
+  width: 100%;
+
+
+}
+.mapsList li p{
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+}
+.mapsList li img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
