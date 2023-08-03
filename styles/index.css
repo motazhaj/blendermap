@@ -1,0 +1,27 @@
+.LandingSection {
+  height: 800px;
+  width: auto;
+  background-image: url("/images/Landing/cover1.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.landingDiv {
+  height: 300px;
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 8px;
+  position: relative;
+  top: 200px;
+}
+.landingDiv h1 {
+  font-size: 40px;
+}
+.landingDiv p {
+  font-size: 25px;
+  margin: 40px 40px;
+}

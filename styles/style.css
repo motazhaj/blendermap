@@ -1,51 +1,61 @@
-html{
-    font-family: 'rubik', sans-serif;
-    background-color: #181818;
-    color: white;
+html {
+  font-family: "rubik", sans-serif;
+  background-color: #181818;
+  color: white;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
-.navbar{
-    height: 35px;
-    background-color: #131313;
-    padding: 15px 30px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-
+.navbar {
+  height: 35px;
+  background-color: #131313;
+  padding: 15px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
-.blendermapLogo{
-    height: 35px;
+.blendermapLogo {
+  height: 35px;
 }
 
-.navbarButton{
-    color: white;
-    text-decoration: none;
-    padding: 6px 13px;
-    border-radius: 3px;
+.navbarButton {
+  color: white;
+  text-decoration: none;
+  padding: 6px 13px;
+  border-radius: 3px;
 }
 
-.navbarButton:hover{
-    color: black;
-    background-color: orange;
-
+.navbarButton:hover {
+  color: black;
+  background-color: orange;
 }
 
-.navbarList{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
+.navbarList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.navbarListItem{
-    text-align: right;
-    margin: 0px 10px;
+.navbarListItem {
+  text-align: right;
+  margin: 0px 10px;
+}
+
+.button {
+  padding: 8px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+}
+
+.button:hover {
+  color: black;
+  background-color: rgb(255, 204, 110);
 }
