@@ -62,6 +62,23 @@ body {
   margin: 0px 10px;
 }
 
+.button {
+  padding: 8px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover {
+  color: black;
+  background-color: rgb(255, 204, 110);
+}
+
 .artistCredit {
   text-align: center;
   position: relative;
@@ -86,6 +103,6 @@ footer {
 
 footer img {
   height: 40px;
-  
+
   margin: auto;
 }
