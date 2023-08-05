@@ -13,25 +13,28 @@
 
 .landingDiv {
   height: 350px;
-  width: 800px;
+  width: 80%;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 20px;
+  border-radius: 30px;
   margin: 0 auto;
   text-align: center;
-  padding: 40px 20px;
+  padding: 3rem;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   top: 280px;
 }
 .landingDiv h1 {
   margin: 0;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .landingDiv p {
-  font-size: 25px;
-  margin: 50px 40px;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+.landingDiv div{
+  margin: .8rem;
 }
 
 /* section 2 */
@@ -39,15 +42,16 @@
 .mapsSection{
   /* background-color: rgb(59, 59, 59); */
   height: 400px;
-  padding: 20px;
+  padding: 1rem;
   width: 90%;
   box-sizing: border-box;
   
-  margin: 10px auto;
+  margin: 1rem auto;
 }
 
 .mapsSection h2{
   text-align: center;
+  font-size: 1.5em;
 }
 
 /* .mapsDiv{
@@ -55,26 +59,26 @@
 } */
 
 .mapsList{
-  padding: 20px;
+  padding: 1rem;
   list-style: none;
   display: flex;
 }
 .mapsList li{
-  margin: 10px;
+  margin: .5rem;
   width: 100%;
 
 
 }
 .mapsList li p{
   text-align: center;
-  margin: 10px;
-  font-size: 18px;
+  margin: .5rem;
+  font-size: 1rem;
 }
 .mapsList li img{
   height: 200px;
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 1rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 

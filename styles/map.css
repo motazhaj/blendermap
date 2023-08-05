@@ -3,7 +3,7 @@
 }
 
 main ul {
-  width: 1200px;
+  width: 80%;
   height: auto;
   margin: 0 auto;
   padding: 10px;
@@ -28,20 +28,20 @@ main li img {
 }
 
 .mapDescription {
-  padding: 24px 24px;
+  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin: 0;
 }
 .mapDescription h2 {
-  margin: 12px 0;
-  font-size: 20px;
+  margin: .6rem 0;
+  font-size: 1.2rem;
 }
 
 .mapDescription p {
-  margin: 12px 0;
-  font-size: 12px;
+  margin: .7rem 0;
+  font-size: .7rem;
 
 }
 
