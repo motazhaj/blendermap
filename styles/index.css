@@ -72,18 +72,16 @@
 }
 
 .mapsList {
-  padding: 1rem;
+  padding: 2rem 0;
   list-style: none;
   display: flex;
   flex-direction: row;
 }
 .mapsList li {
-  margin: 0.5rem;
   width: 100%;
 }
 .mapsList li p {
   text-align: center;
-  display: inline;
   margin: 0.5rem;
   font-size: 1rem;
 }
@@ -105,6 +103,7 @@
   .mapsList {
     flex-direction: column;
   }
+  
   .landingDiv h1 {
     font-size: 2rem;
   }

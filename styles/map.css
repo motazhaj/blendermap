@@ -22,7 +22,7 @@ main li {
 }
 
 main li img {
-  width: 300px;
+  width: 30%;
   object-fit: cover;
 }
 
@@ -55,6 +55,19 @@ main li img {
   main ul {
     grid-template-columns: 100%;
     gap: 15px;
+  }
+  .mapDescription h2 {
+    margin: .6rem 0;
+    font-size: 1rem;
+  }
+  
+  .mapDescription p {
+    margin: .7rem 0;
+    font-size: .5rem;
+  }
+
+  .button{
+    font-size: .7rem;
   }
   
 }
