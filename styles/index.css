@@ -1,24 +1,28 @@
 /* section 1 */
 
 .LandingSection {
-  height: 800px;
+  height: 900px;
   width: auto;
   background-image: url("/images/landing/cover1.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
-
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .landingDiv {
-  height: 350px;
-  width: 80%;
+  width: 60%;
+  height: 400px;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 30px;
   margin: 0 auto;
   text-align: center;
-  padding: 3rem;
+  padding: 2rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -33,60 +37,14 @@
   font-size: 1.5rem;
   margin: 2rem;
 }
-.landingDiv div{
-  margin: .8rem;
-}
-
-/* section 2 */
-
-.mapsSection{
-  /* background-color: rgb(59, 59, 59); */
-  height: 400px;
-  padding: 1rem;
-  width: 90%;
-  box-sizing: border-box;
-  
-  margin: 1rem auto;
-}
-
-.mapsSection h2{
-  text-align: center;
-  font-size: 1.5em;
-}
-
-/* .mapsDiv{
-
-} */
-
-.mapsList{
-  padding: 1rem;
-  list-style: none;
-  display: flex;
-}
-.mapsList li{
-  margin: .5rem;
-  width: 100%;
-
-
-}
-.mapsList li p{
-  text-align: center;
-  margin: .5rem;
-  font-size: 1rem;
-}
-.mapsList li img{
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+.landingDiv div {
+  margin: 0.8rem;
 }
 
 .artistCredit {
   text-align: center;
   position: relative;
   margin: 1.5rem;
-  top: 350px;
 }
 
 .artistCredit a {
@@ -96,4 +54,66 @@
 
 .artistCredit a:hover {
   text-decoration: underline;
+}
+
+/* section 2 */
+
+.mapsSection {
+  padding: 1rem;
+  width: 90%;
+  box-sizing: border-box;
+
+  margin: 1rem auto;
+}
+
+.mapsSection h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.mapsList {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.mapsList li {
+  margin: 0.5rem;
+  width: 100%;
+}
+.mapsList li p {
+  text-align: center;
+  display: inline;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+.mapsList li img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 900px) {
+  .LandingSection {
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .mapsList {
+    flex-direction: column;
+  }
+  .landingDiv h1 {
+    font-size: 2rem;
+  }
+  .landingDiv p {
+    font-size: 1.2rem;
+  }
+  .landingDiv {
+    width: 100%;
+    height: 350px;
+    border-radius: 0;
+  }
 }

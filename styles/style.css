@@ -34,6 +34,7 @@ html {
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  z-index: 2;
   box-sizing: border-box;
 }
 .blendermapLogo {
@@ -63,6 +64,13 @@ html {
   text-align: right;
   font-size: 1rem;
   margin: 0 1rem;
+}
+
+.navbarMenu{
+  display: none;
+}
+.navbarMenu img{
+  height: 1.8rem;
 }
 
 .button {
@@ -95,4 +103,17 @@ footer img {
   height: 2rem;
   
   margin: auto;
+}
+
+
+@media (max-width: 900px) {
+  .button {
+    font-size: .9rem;
+  }
+  .navbar nav {
+    display: none;
+  }
+  .navbarMenu{
+    display: block;
+  }
 }

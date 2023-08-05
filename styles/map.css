@@ -3,7 +3,7 @@
 }
 
 main ul {
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   padding: 10px;
@@ -22,7 +22,6 @@ main li {
 }
 
 main li img {
-  height: 200px;
   width: 300px;
   object-fit: cover;
 }
@@ -50,4 +49,12 @@ main li img {
 }
 .button {
   text-align: right;
+}
+
+@media (max-width: 900px){
+  main ul {
+    grid-template-columns: 100%;
+    gap: 15px;
+  }
+  
 }
