@@ -79,6 +79,7 @@
 }
 .mapsList li {
   width: 100%;
+  margin: .3rem;
 }
 .mapsList li p {
   text-align: center;
