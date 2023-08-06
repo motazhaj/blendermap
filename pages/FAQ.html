@@ -2,27 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/images/icon/apple-touch-icon.png"
+      href="/images/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/images/icon/favicon-32x32.png"
+      href="/images/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/images/icon/favicon-16x16.png"
+      href="/images/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/images/icon/site.webmanifest" />
+    <link rel="manifest" href="/images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/index.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,13 +31,55 @@
     />
     <title>Blender Map</title>
   </head>
+
   <body>
-    <header>
-      <div class="landingDiv">
-        <h1>coming soon...</h1>
-        <p>thanks for the wait</p>
-        <a class="landingButton" href="/index.html"> back</a>
+    <header class="navbar">
+      <div class="navbarLogo">
+        <a href="/index.html"
+          ><img
+            class="blendermapLogo"
+            src="/images/Blendermaplogo.png"
+            alt="blender map logo"
+        /></a>
       </div>
+      <nav>
+        <ul class="navbarList">
+          <li class="navbarListItem">
+            <a class="navbarButton" href="/pages/map.html">Maps</a>
+          </li>
+          <li class="navbarListItem">
+            <a class="navbarButton" href="/pages/FAQ.html">FAQ</a>
+          </li>
+          <li class="navbarListItem">
+            <a class="navbarButton" href="/pages/about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#sideDrawer" class="navbarMenu"
+        ><img src="/images/icons/menu.png" alt="navbar menu button"
+      /></a>
     </header>
+
+    <aside id="sideDrawer">
+      <a class="sideDrawerBack" href="#"><img src="/images/icons/close.png" alt="close button"></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="/pages/map.html">Maps</a>
+          </li>
+          <li>
+            <a href="/pages/FAQ.html">FAQ</a>
+          </li>
+          <li>
+            <a href="/pages/about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+
+    </main>
+
   </body>
 </html>

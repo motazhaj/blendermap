@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -23,7 +24,6 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/map.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,7 +43,6 @@
             alt="blender map logo"
         /></a>
       </div>
-
       <nav>
         <ul class="navbarList">
           <li class="navbarListItem">
@@ -57,7 +56,28 @@
           </li>
         </ul>
       </nav>
+      <a href="#sideDrawer" class="navbarMenu"
+        ><img src="/images/icons/menu.png" alt="navbar menu button"
+      /></a>
     </header>
+
+    <aside id="sideDrawer">
+      <a class="sideDrawerBack" href="#"><img src="/images/icons/close.png" alt="close button"></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="/pages/map.html">Maps</a>
+          </li>
+          <li>
+            <a href="/pages/FAQ.html">FAQ</a>
+          </li>
+          <li>
+            <a href="/pages/about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
 
     <div class="navbarAnchor"></div>
 
@@ -220,5 +240,11 @@
         </li>
       </ul>
     </main>
+
+    <footer>
+      <a href="https://www.blender.org" target="_blank"
+        ><img src="/images/icons/Blender.png" alt="blender logo"
+      /></a>
+    </footer>
   </body>
 </html>

@@ -2,26 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/images/icon/apple-touch-icon.png"
+      href="/images/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/images/icon/favicon-32x32.png"
+      href="/images/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/images/icon/favicon-16x16.png"
+      href="/images/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/images/icon/site.webmanifest" />
+    <link rel="manifest" href="/images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/about.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,6 +33,7 @@
     />
     <title>Blender Map</title>
   </head>
+
   <body>
     <header class="navbar">
       <div class="navbarLogo">
@@ -41,11 +44,10 @@
             alt="blender map logo"
         /></a>
       </div>
-
       <nav>
         <ul class="navbarList">
           <li class="navbarListItem">
-            <a class="navbarButton" href="/pages/map.html">Map</a>
+            <a class="navbarButton" href="/pages/map.html">Maps</a>
           </li>
           <li class="navbarListItem">
             <a class="navbarButton" href="/pages/FAQ.html">FAQ</a>
@@ -55,10 +57,85 @@
           </li>
         </ul>
       </nav>
+      <a href="#sideDrawer" class="navbarMenu"
+        ><img src="/images/icons/menu.png" alt="navbar menu button"
+      /></a>
     </header>
-    <main>
 
+    <aside id="sideDrawer">
+      <a class="sideDrawerBack" href="#"
+        ><img src="/images/icons/close.png" alt="close button"
+      /></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="/pages/map.html">Maps</a>
+          </li>
+          <li>
+            <a href="/pages/FAQ.html">FAQ</a>
+          </li>
+          <li>
+            <a href="/pages/about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="navbarAnchor"></div>
+
+    <main>
+      <h1>About Blender Map</h1>
+      <h2>Your Ultimate Guide to Mastering Blender</h2>
+      <p>
+        Welcome to Blender Map, the ultimate online destination for aspiring 3D
+        artists and enthusiasts to embark on an immersive journey of learning
+        and mastering Blender, the renowned open-source 3D modeling software.
+        Whether you're a complete beginner or looking to level up your skills,
+        Blender Map is here to guide you every step of the way!
+      </p>
+      <h2>Explore the World of Blender:</h2>
+      <p>
+        Blender Map offers a user-friendly interface that resembles an
+        interactive map, where users can navigate through various "locations"
+        representing different aspects of Blender's extensive functionalities.
+        Each location on the map corresponds to a specific topic or skill level,
+        making it easy for learners to find their starting point and progress at
+        their own pace.
+      </p>
+      <h2>Curated Tutorial Pathways:</h2>
+      <p>
+        Are you overwhelmed by the vast sea of Blender tutorials available
+        online? Fear not! Blender Map curates and organizes the best tutorials
+        and courses from across the internet into logical pathways. These
+        pathways are designed to build a strong foundation and then gradually
+        introduce more advanced techniques, ensuring a smooth learning
+        experience.
+      </p>
+      <h2>Learning Tracks:</h2>
+      <p>
+        Blender Map offers customizable learning tracks tailored to individual
+        goals. Whether you want to focus on character modeling, animation, or
+        architectural visualization, our carefully crafted learning tracks will
+        guide you from beginner to proficient artist in your chosen area.
+      </p>
+      <h2>Track Your Progress:</h2>
+      <p>
+        Keep track of your achievements and progress with personalized learning
+        dashboards. Blender Map's progress tracker helps you set goals, monitor
+        your development, and celebrate your milestones.
+      </p>
+      <p>
+        Embark on your journey to becoming a proficient Blender artist today
+        with Blender Map. Let the map guide you through the exciting world of 3D
+        creation and visualization. Begin your adventure and unlock your
+        artistic potential!
+      </p>
     </main>
 
+    <footer>
+      <a href="https://www.blender.org" target="_blank"
+        ><img src="/images/icons/Blender.png" alt="blender logo"
+      /></a>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,17 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+p {
+  margin: 20px 0;
+}
