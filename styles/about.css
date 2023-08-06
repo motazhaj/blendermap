@@ -1,5 +1,5 @@
 main {
-  width: 80%;
+  width: 50%;
   margin: auto;
 }
 
@@ -15,3 +15,10 @@ h2 {
 p {
   margin: 20px 0;
 }
+
+@media (max-width: 800px) {
+    main {
+        width: 70%;
+      }
+}
+
