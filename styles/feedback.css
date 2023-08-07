@@ -1,0 +1,12 @@
+section{
+    margin: 10rem;
+    text-align: center;
+}
+
+section input{
+    width: 40%;
+    height: 1.5rem;
+    background-color: gray;
+
+
+}
