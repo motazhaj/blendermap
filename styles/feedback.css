@@ -7,30 +7,24 @@ section {
 
 section form {
   background-color: #303030;
-  padding: 0.5rem 3rem;
+  padding: 1rem 2rem;
   margin: auto;
   flex-direction: column;
   text-align: left;
   border-radius: 10px;
 }
 
-section input {
+section input,textarea {
   padding: .5rem;
   width: 100%;
-  height: 2rem;
   background-color: #181818;
   border: 1px solid gray;
   border-radius: 5px;
   display: block;
 }
 
-section textarea {
-  width: 100%;
-  padding: .5rem;
-  background-color: #181818;
-  border: 1px solid gray;
-  border-radius: 5px;
-  display: block;
+textarea{
+    resize: vertical;
 }
 
 section label {

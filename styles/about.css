@@ -1,6 +1,9 @@
 main {
-  width: 50%;
-  margin: auto;
+  width: 70%;
+  padding: 3rem;
+  margin: 2rem auto;
+  background-color: #303030;
+  border-radius: 8px;
 }
 
 h1 {
@@ -17,8 +20,8 @@ p {
 }
 
 @media (max-width: 800px) {
-    main {
-        width: 70%;
-      }
+  main {
+    width: 100%;
+    border-radius: 8px;
+  }
 }
-
