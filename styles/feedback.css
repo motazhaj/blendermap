@@ -1,7 +1,6 @@
 section {
   margin: 5rem auto;
   width: 50%;
-
   text-align: center;
 }
 
@@ -12,10 +11,12 @@ section form {
   flex-direction: column;
   text-align: left;
   border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-section input,textarea {
-  padding: .5rem;
+section input,
+textarea {
+  padding: 0.5rem;
   width: 100%;
   background-color: #181818;
   border: 1px solid gray;
@@ -23,8 +24,8 @@ section input,textarea {
   display: block;
 }
 
-textarea{
-    resize: vertical;
+textarea {
+  resize: vertical;
 }
 
 section label {
@@ -33,6 +34,9 @@ section label {
   display: block;
 }
 
+section form div {
+  text-align: right;
+}
 section button {
   background-color: var(--color-main);
   color: black;
@@ -45,12 +49,12 @@ section button {
   cursor: pointer;
 }
 
-section button:hover{
+section button:hover {
   background-color: var(--color-accent);
 }
 
-@media(max-width: 800px ){
-    section {
-        width: 80%;
-            }
+@media (max-width: 800px) {
+  section {
+    width: 80%;
+  }
 }
