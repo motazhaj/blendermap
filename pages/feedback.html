@@ -91,7 +91,29 @@
       <div class="navbarAnchor"></div>
 
       <section>
-        <input type="text">
+        <h1>
+          Kindly share your valuable feedback here as it will significantly
+          contribute to the enhancement of the project.
+        </h1>
+      </section>
+      <section>
+        <form action="/pages/feedback.html">
+          <label for="userName">Name</label>
+          <input name="username" type="text" id="userName" />
+
+          <label for="userAge">Age</label>
+          <input name="userAge" type="number" id="userAge" />
+
+          <label for="userEmail"
+            >Email (optional): enables us to notify you when new features are
+            implemented.</label
+          >
+          <input type="email" id="userEmail" />
+
+          <label for="feedback"> Feedback</label>
+          <textarea name="feedback" id="feedback" rows="10"></textarea>
+          <button>Submit</button>
+        </form>
       </section>
     </main>
   </body>

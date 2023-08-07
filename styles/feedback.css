@@ -1,12 +1,62 @@
-section{
-    margin: 10rem;
-    text-align: center;
+section {
+  margin: 5rem auto;
+  width: 50%;
+
+  text-align: center;
 }
 
-section input{
-    width: 40%;
-    height: 1.5rem;
-    background-color: gray;
+section form {
+  background-color: #303030;
+  padding: 0.5rem 3rem;
+  margin: auto;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 10px;
+}
 
+section input {
+  padding: .5rem;
+  width: 100%;
+  height: 2rem;
+  background-color: #181818;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: block;
+}
 
+section textarea {
+  width: 100%;
+  padding: .5rem;
+  background-color: #181818;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: block;
+}
+
+section label {
+  width: 100%;
+  margin: 0.8rem 0 0.4rem 0;
+  display: block;
+}
+
+section button {
+  background-color: var(--color-main);
+  color: black;
+  margin: 0.8rem 0;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+section button:hover{
+  background-color: var(--color-accent);
+}
+
+@media(max-width: 800px ){
+    section {
+        width: 80%;
+            }
 }
