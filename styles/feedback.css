@@ -1,7 +1,11 @@
 section {
-  margin: 5rem auto;
+  margin: 4rem auto;
   width: 50%;
   text-align: center;
+}
+
+section h1 {
+  margin: 1.5rem;
 }
 
 section form {
@@ -35,7 +39,9 @@ section label {
 }
 
 section form div {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 section button {
   background-color: var(--color-main);

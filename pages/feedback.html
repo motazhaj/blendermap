@@ -31,6 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="../scripts/app.js" defer></script>
     <title>Blender Map</title>
   </head>
 
@@ -105,7 +106,7 @@
           <input name="userAge" type="number" id="userAge" />
 
           <label for="userEmail"
-            >Email (optional): enables us to notify you when new features are
+            >Email (optional): Enables us to notify you when new features are
             implemented.</label
           >
           <input type="email" id="userEmail" />
@@ -117,8 +118,10 @@
             rows="10"
             required
             minlength="5"
-          ></textarea>
+            maxLength="200"
+          >Sample Text</textarea>
           <div>
+            <p id="feedbackCounter">0/200</p>
             <button>Submit</button>
           </div>
         </form>
